@@ -1,3 +1,7 @@
+Changes 2014-06-20
+ - removed the generation of a space before the opening parenthesis of an
+argument list (Marcin Davies)
+
 Changes 2001-12-12
  - cleaned up core files & editor backups left over from handover (Mike
    Clarkson)

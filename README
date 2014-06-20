@@ -1,3 +1,21 @@
+This repository bundles the original release of specRuby and provides a small fix 
+that prevented it from working with recent Ruby versions (to the interested: the 
+original release generated code with a space before the opening parenthesis of an
+argument list, which throws an error with recent Ruby interpreters - see changes).
+
+The release that was used and modified has been retrieved from: 
+	http://www.ugcs.caltech.edu/~rise/SpecTcl1.1-for-Ruby.tar.gz 
+
+All original credits and licensing terms (see license.terms) apply.
+
+For OS X users: specruby can be launched with:
+	wish SpecTcl/main.tk -ruby
+(provided you have a ruby with Tcl/Tk support installed) 
+
+###################################################################################
+Original comments follow below.
+###################################################################################
+
 #### Ruby Preface ####
 
 specRuby was derived from specPerl by Conrad Schneiker, 2000-07-23,
