@@ -392,7 +392,7 @@ proc compile_ui {file {out ""} {prefix ""} {run ""}} {
       
       # gather up the widget command.
 
-      puts -nonewline $out_fd "\t[fix_ $data(other,item_name)] = Tk[uc1st $data(other,type)].new (root"
+      puts -nonewline $out_fd "\t[fix_ $data(other,item_name)] = Tk[uc1st $data(other,type)].new(root"
       set options [lsort [array names data configure,*]]
       set font ""
       set comma ,
